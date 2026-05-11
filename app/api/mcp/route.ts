@@ -84,7 +84,7 @@ const DATA = {
       description:
         "Laftehytte i lys furu med utskårne hjørnefriser og vindusoverstykker mot mørke beisede tømmervegger. Bygd ferdig i hallen i Vikedal, demontert, fraktet over fjellet og satt opp på tomta.",
       source:
-        "https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/",
+        "",
       outlet: "vibyggernytt.no",
     },
   ],
@@ -98,7 +98,7 @@ const DATA = {
     {
       outlet: "vibyggernytt.no",
       date: "2019-05-25",
-      url: "https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/",
+      url: "",
       note: "Fagpressens omtale av Mesterverket-laftehytta i Røldal.",
     },
   ],

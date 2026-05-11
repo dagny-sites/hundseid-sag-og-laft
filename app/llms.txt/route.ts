@@ -32,7 +32,7 @@ Hvert hus bygges først i produksjonshallen i Vikedal. Hver stokk hugges, novles
 ## Press
 
 - Haugesunds Avis, 2024-01-13: Feature on Hundseid Bygg og Laft, photo from the workshop. Outlet: https://www.h-avis.no/
-- vibyggernytt.no, 2019-05-25: Mesterverket, laftehytta i Røldal. Article: https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/
+- vibyggernytt.no, 2019-05-25: Mesterverket, laftehytta i Røldal. Article: 
 
 ## Pages
 

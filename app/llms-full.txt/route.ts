@@ -51,12 +51,12 @@ Hvert hus bygges først i produksjonshallen i Vikedal. Hver stokk hugges, novles
 ## Projects
 
 ### Mesterverket, Røldal (2019)
-Laftehytte i lys furu med utskårne hjørnefriser og vindusoverstykker mot mørke beisede tømmervegger. Bygd ferdig i hallen i Vikedal, demontert, fraktet over fjellet og satt opp på tomta. Omtalt i vibyggernytt.no 25. mai 2019: https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/
+Laftehytte i lys furu med utskårne hjørnefriser og vindusoverstykker mot mørke beisede tømmervegger. Bygd ferdig i hallen i Vikedal, demontert, fraktet over fjellet og satt opp på tomta. Omtalt i vibyggernytt.no 25. mai 2019: 
 
 ## Press
 
 - Haugesunds Avis, 2024-01-13. Headline: Feature on Hundseid Bygg og Laft (regionavisens omtale, med foto fra verkstedet i Vikedal). Outlet: https://www.h-avis.no/
-- vibyggernytt.no, 2019-05-25. Headline: Mesterverket, laftehytta i Røldal (fagpressens omtale av Røldal-prosjektet). Article: https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/
+- vibyggernytt.no, 2019-05-25. Headline: Mesterverket, laftehytta i Røldal (fagpressens omtale av Røldal-prosjektet). Article: 
 
 ## About Bjørn Magne
 

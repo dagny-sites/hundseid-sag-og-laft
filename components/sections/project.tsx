@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FadeUp } from "../motion";
-import { ArrowUpRight } from "lucide-react";
 
 export function Project() {
   return (
@@ -24,15 +23,9 @@ export function Project() {
               bygd ferdig i hallen i Vikedal, demontert, fraktet over fjellet
               og satt opp igjen på tomta.
             </p>
-            <a
-              href="https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-10 inline-flex items-center gap-2 text-[var(--color-ink)] font-medium border-b border-[var(--color-ink)] pb-1 hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors"
-            >
-              Les omtalen i vibyggernytt.no
-              <ArrowUpRight size={16} />
-            </a>
+            <p className="mt-10 text-[15px] tracking-[0.04em] text-[var(--color-muted)]">
+              Omtalt i vibyggernytt.no, 25. mai 2019.
+            </p>
           </FadeUp>
 
           <FadeUp delay={0.08} className="lg:col-span-7 space-y-8">

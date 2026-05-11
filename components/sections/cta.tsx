@@ -2,7 +2,6 @@ import { FadeUp } from "../motion";
 
 const CONTACT = [
   { label: "Telefon", value: "+47 473 01 900", href: "tel:+4747301900" },
-  { label: "E-post", value: "bendik.barane@gmail.com", href: "mailto:bendik.barane@gmail.com" },
   { label: "Verksted", value: "Fjellgardsvegen 1121, 5583 Vikedal" },
   {
     label: "Facebook",
@@ -30,15 +29,20 @@ export function CallToAction() {
             </h2>
             <p className="mt-6 caption">Vi tar én samtale av gangen.</p>
             <p className="mt-8 max-w-xl text-[18px] leading-[1.65] text-[var(--color-ink)]/85">
-              Ring Bjørn Magne direkte, eller send en kort e-post med hvor og
-              hva du tenker å bygge. Vi svarer alltid.
+              Ring Bjørn Magne direkte, eller ta kontakt via Facebook eller
+              Instagram.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
               <a href="tel:+4747301900" className="btn-primary">
                 Ring 473 01 900
               </a>
-              <a href="mailto:bendik.barane@gmail.com" className="btn-secondary">
-                Send e-post
+              <a
+                href="https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                Send melding på Facebook
               </a>
             </div>
           </FadeUp>

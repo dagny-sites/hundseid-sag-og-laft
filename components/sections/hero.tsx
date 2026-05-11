@@ -23,16 +23,15 @@ export function Hero() {
             Bygd for å vare.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">
-            Tradisjonell lafting, tømrerarbeid og restaurering fra
-            produksjonshallen i Vikedal. Håndlaftet av Bjørn Magne Hundseid
-            siden 2009.
+            Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal i
+            Rogaland. Drevet av Bjørn Magne Hundseid siden 2009.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
             <a href="tel:+4747301900" className="btn-primary">
-              Be om uforpliktende befaring
+              Ring 473 01 900
             </a>
-            <a href="#prosjekter" className="btn-secondary">
-              Se Mesterverket i Røldal
+            <a href="#galleri" className="btn-secondary">
+              Se verkstedet
             </a>
           </div>
         </div>

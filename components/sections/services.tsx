@@ -4,7 +4,6 @@ import { FadeUp } from "../motion";
 type ServiceItem = {
   number: string;
   title: string;
-  description: string;
   image?: {
     src: string;
     alt: string;
@@ -16,65 +15,51 @@ const SERVICES: ServiceItem[] = [
   {
     number: "01",
     title: "Lafting",
-    description:
-      "Bygges i produksjonshall i Vikedal, demonteres og reises på tomta.",
     image: {
       src: "/process-wall-assembly-hall.jpeg",
-      alt: "To tømrere på toppen av en høy laftevegg under oppføring i produksjonshallen, stige opp mot toppstokken",
+      alt: "To tømrere på toppen av en laftevegg under oppføring",
     },
   },
   {
     number: "02",
     title: "Tømrerarbeid",
-    description:
-      "Komplette leveranser fra grunnmur til ferdig hus, innvendig og utvendig.",
     image: {
       src: "/about-master-full-body.jpeg",
-      alt: "Nærbilde av hender på meisel og klubbe mens en novle hugges",
+      alt: "Tømrer hugger en novle med meisel og klubbe",
       objectPosition: "center 30%",
     },
   },
   {
     number: "03",
-    title: "Restaurering",
-    description:
-      "Nye stokker hugges til samme profil som de gamle og settes inn mot rotnet tømmer, slik at huset står videre uten å skifte karakter.",
+    title: "Restaurering av eldre bygg",
     image: {
       src: "/restoration-old-new-timber-joint.jpeg",
-      alt: "Laftehjørne der værbitt eldre stokker møter ferskhugd ny furu, restaurering med stokkbytte",
+      alt: "Laftehjørne der eldre stokker møter ferskhugd ny furu",
     },
   },
   {
     number: "04",
-    title: "Nybygg",
-    description:
-      "Hytter, boliger, anneks og stabbur laftet etter gamle metoder, prosjektert for TEK17.",
+    title: "Nybygg av hytter og boliger",
     image: {
       src: "/detail-carved-window-crown.jpeg",
-      alt: "Tradisjonelt norsk vindu med utskåret krans i lys furu, satt i mørke patinerte tømmervegger",
+      alt: "Tradisjonelt norsk vindu med utskåret krans i lys furu",
     },
   },
   {
     number: "05",
     title: "Tilbygg og rehabilitering",
-    description:
-      "Påbygg og oppgraderinger som møter den eksisterende konstruksjonen i samme treverk og profil, ikke i plate og puss. Vi tar ansvar for at den nye delen leses som en del av den gamle, ikke som et fremmedelement.",
   },
   {
     number: "06",
-    title: "Spesialprodusert trevirke",
-    description:
-      "Eikegolv, villmarkspanel, kledning og dekorelementer høvles og freses i eget verksted.",
+    title: "Sagbruk og spesialprodusert trevirke",
     image: {
       src: "/interior-oak-flooring.webp",
-      alt: "Brede eikegolvplanker i sterkt sollys, store vinduer åpner mot fjellene",
+      alt: "Brede eikegolvplanker i sterkt sollys",
     },
   },
   {
     number: "07",
     title: "Kopiering av panel- og kledningstyper",
-    description:
-      "Vi tar mål av eksisterende panel og lager nye stokker i samme profil. Uvurderlig ved restaurering der originalprofilen ikke finnes på markedet.",
   },
 ];
 
@@ -90,11 +75,8 @@ export function Services() {
             Tjenester
           </p>
           <h2 className="font-display text-[36px] sm:text-[48px] lg:text-[56px] leading-[1.05] max-w-3xl">
-            Det vi gjør i hallen og på tomta
+            Det vi gjør
           </h2>
-          <p className="mt-5 max-w-2xl text-[18px] text-[var(--color-ink)]/80">
-            Sju fag, ett verksted, én lafter.
-          </p>
         </FadeUp>
 
         <div className="mt-16 border-t border-[var(--color-muted)]/40">
@@ -104,7 +86,7 @@ export function Services() {
               delay={i * 0.04}
               className="border-b border-[var(--color-muted)]/40"
             >
-              <article className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 py-12 lg:py-16 items-start">
+              <article className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 py-10 lg:py-14 items-center">
                 <div className="lg:col-span-1">
                   <span className="font-display text-[var(--color-muted)] text-2xl tracking-[0.05em]">
                     {s.number}
@@ -118,9 +100,6 @@ export function Services() {
                   <h3 className="font-display text-[28px] sm:text-[32px] lg:text-[36px] leading-[1.1]">
                     {s.title}
                   </h3>
-                  <p className="mt-5 text-[17px] leading-[1.65] text-[var(--color-ink)]/85 max-w-xl">
-                    {s.description}
-                  </p>
                 </div>
                 {s.image && (
                   <div className="lg:col-span-5">

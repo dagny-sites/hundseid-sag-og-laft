@@ -9,7 +9,7 @@ const SITE_URL = "https://hundseid-sag-og-laft.dagny.dev";
 export const metadata: Metadata = {
   title: "Kontakt Hundseid Bygg og Laft, Vikedal",
   description:
-    "Ring Bjørn Magne på 473 01 900 eller send e-post til bendik.barane@gmail.com. Verksted i Fjellgardsvegen 1121, 5583 Vikedal.",
+    "Ring Bjørn Magne på 473 01 900. Verksted i Fjellgardsvegen 1121, 5583 Vikedal.",
   keywords: [
     "kontakt Hundseid Bygg og Laft",
     "lafter Vikedal telefon",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kontakt Hundseid Bygg og Laft",
     description:
-      "Telefon, e-post og verksted i Vikedal. Be om en uforpliktende befaring.",
+      "Telefon, verksted og sosiale kanaler i Vikedal.",
     url: `${SITE_URL}/kontakt`,
     type: "website",
     locale: "nb_NO",
@@ -37,16 +37,15 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kontakt Hundseid Bygg og Laft",
     description:
-      "Telefon, e-post og verksted i Vikedal. Be om en uforpliktende befaring.",
+      "Telefon, verksted og sosiale kanaler i Vikedal.",
     images: [`${SITE_URL}/images/og.png`],
   },
 };
 
 const CONTACT = [
   { label: "Telefon", value: "+47 473 01 900", href: "tel:+4747301900" },
-  { label: "E-post", value: "bendik.barane@gmail.com", href: "mailto:bendik.barane@gmail.com" },
   { label: "Verksted", value: "Fjellgardsvegen 1121, 5583 Vikedal" },
-  { label: "Region", value: "Vindafjord, Rogaland. Leverer over hele landet." },
+  { label: "Region", value: "Vindafjord, Rogaland." },
   {
     label: "Facebook",
     value: "facebook.com/p/Hundseid-Bygg-og-Laft",
@@ -76,15 +75,20 @@ export default function KontaktPage() {
               </h1>
               <p className="mt-6 caption">Vi tar én samtale av gangen.</p>
               <p className="mt-8 max-w-2xl text-[18px] leading-[1.65] text-[var(--color-ink)]/85">
-                Ring Bjørn Magne direkte, eller send en kort e-post med hvor
-                og hva du tenker å bygge.
+                Ring Bjørn Magne direkte, eller ta kontakt via Facebook eller
+                Instagram.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
                 <a href="tel:+4747301900" className="btn-primary">
                   Ring 473 01 900
                 </a>
-                <a href="mailto:bendik.barane@gmail.com" className="btn-secondary">
-                  Send e-post
+                <a
+                  href="https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-secondary"
+                >
+                  Send melding på Facebook
                 </a>
               </div>
             </FadeUp>

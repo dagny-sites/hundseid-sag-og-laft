@@ -8,7 +8,7 @@ export const dynamic = "force-static";
 export function GET() {
   const origin = "https://hundseid-sag-og-laft.dagny.dev";
   const body = [
-    `Contact: mailto:bendik.barane@gmail.com`,
+    `Contact: tel:+4747301900`,
     `Expires: ${new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString()}`,
     "Preferred-Languages: no, en",
     `Canonical: ${origin}/.well-known/security.txt`,

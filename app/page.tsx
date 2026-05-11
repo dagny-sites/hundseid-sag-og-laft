@@ -4,10 +4,7 @@ import { Footer } from "@/components/footer";
 import { Hero } from "@/components/sections/hero";
 import { Philosophy } from "@/components/sections/philosophy";
 import { Services } from "@/components/sections/services";
-import { Process } from "@/components/sections/process";
-import { Project } from "@/components/sections/project";
-import { Press } from "@/components/sections/press";
-import { Faq } from "@/components/sections/faq";
+import { Gallery } from "@/components/sections/gallery";
 import { CallToAction } from "@/components/sections/cta";
 import { HomeJsonLd } from "@/components/json-ld";
 
@@ -16,7 +13,7 @@ const SITE_URL = "https://hundseid-sag-og-laft.dagny.dev";
 export const metadata: Metadata = {
   title: "Hundseid Bygg og Laft, lafting i Vikedal",
   description:
-    "Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal. Bygges i hallen, reises på tomta. Solo mesterlafter siden 2009.",
+    "Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal. Drevet av Bjørn Magne Hundseid siden 2009.",
   keywords: [
     "lafting Vikedal",
     "laftehytte Rogaland",
@@ -28,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hundseid Bygg og Laft, bygd for å vare",
     description:
-      "Håndlaftede hytter, hus og restaurering fra produksjonshallen i Vikedal. Bygges inne, reises ute på rundt en uke.",
+      "Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal i Rogaland.",
     url: SITE_URL,
     type: "website",
     locale: "nb_NO",
@@ -45,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hundseid Bygg og Laft, bygd for å vare",
     description:
-      "Håndlaftede hytter, hus og restaurering fra produksjonshallen i Vikedal.",
+      "Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal i Rogaland.",
     images: [`${SITE_URL}/images/og.png`],
   },
 };
@@ -59,10 +56,7 @@ export default function Home() {
         <Hero />
         <Philosophy />
         <Services />
-        <Process />
-        <Project />
-        <Press />
-        <Faq />
+        <Gallery />
         <CallToAction />
       </main>
       <Footer />

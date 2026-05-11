@@ -79,7 +79,7 @@ export function GET() {
         ],
         author: [
           {
-            href: `mailto:bendik.barane@gmail.com`,
+            href: `tel:+4747301900`,
             title: "Bjørn Magne Hundseid",
           },
         ],

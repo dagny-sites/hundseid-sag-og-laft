@@ -20,7 +20,7 @@ export function Philosophy() {
               />
             </div>
             <p className="caption mt-3 border-t border-[var(--color-line)] pt-3">
-              Laftøks på novle, produksjonshallen i Vikedal.
+              Laftøks på novle, Vikedal.
             </p>
           </FadeUp>
 
@@ -39,11 +39,9 @@ export function Philosophy() {
               .
             </h2>
             <p className="mt-8 text-[18px] leading-[1.65] text-[var(--color-ink)]/90">
-              Hvert hus skal tåle tid, vær og bruk. Vi velger furu og gran fra
-              lokale leverandører, og hver stokk hugges, novles og merkes på
-              gulvet i hallen før den reises på tomta. Det er ikke en metode
-              som er rask, men den er etterprøvbar. Et hus som blir bygd slik,
-              står i ti generasjoner til.
+              Tradisjonell lafting, tømrerarbeid og restaurering. Kvalitet,
+              detaljer og varige konstruksjoner, med respekt for norske
+              byggetradisjoner og naturmaterialer.
             </p>
           </FadeUp>
         </div>

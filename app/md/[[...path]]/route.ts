@@ -86,7 +86,7 @@ const CONTACT_MD = `# Kontakt
 ## Kontaktinformasjon
 
 - **Telefon:** +47 473 01 900
-- **E-post:** bendik.barane@gmail.com
+- **E-post:** +4747301900
 - **Verksted:** Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland
 - **Facebook:** https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/
 - **Instagram:** https://www.instagram.com/hundseidbyggoglaft/

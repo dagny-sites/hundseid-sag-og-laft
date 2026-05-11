@@ -36,14 +36,6 @@ export function Footer() {
                   +47 473 01 900
                 </a>
               </li>
-              <li>
-                <a
-                  href="mailto:bendik.barane@gmail.com"
-                  className="hover:text-[var(--color-accent)] transition-colors break-all"
-                >
-                  bendik.barane@gmail.com
-                </a>
-              </li>
               <li className="text-[var(--color-muted)]">
                 Fjellgardsvegen 1121
                 <br />

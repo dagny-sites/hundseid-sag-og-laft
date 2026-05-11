@@ -30,7 +30,7 @@ const BUSINESS = {
     "Tradisjonell lafting, tømrerarbeid og restaurering fra produksjonshallen i Vikedal. Drevet av Bjørn Magne Hundseid som enkeltpersonforetak siden 2009.",
   url: SITE_URL,
   telephone: "+4747301900",
-  email: "bendik.barane@gmail.com",
+  email: "+4747301900",
   image: `${SITE_URL}/images/og.png`,
   logo: `${SITE_URL}/hundseid-bygg-laft-logo.png`,
   foundingDate: "2009",

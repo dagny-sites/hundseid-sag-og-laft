@@ -33,7 +33,7 @@ export function GET() {
       {
         name: "get-contact-info",
         description:
-          "Hent kontaktinformasjon: telefon +47 473 01 900, e-post bendik.barane@gmail.com, verksted i Vikedal.",
+          "Hent kontaktinformasjon: telefon +47 473 01 900, e-post +4747301900, verksted i Vikedal.",
         docUrl: `${ORIGIN}/kontakt`,
         invocation: { via: "mcp-tool", target: "get_contact_info" },
       },

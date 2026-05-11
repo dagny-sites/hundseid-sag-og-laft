@@ -55,7 +55,7 @@ export function GET() {
       },
       contact: {
         phone: "+4747301900",
-        email: "bendik.barane@gmail.com",
+        email: "+4747301900",
         address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland, Norway",
         social: [
           "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/",

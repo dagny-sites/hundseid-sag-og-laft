@@ -26,7 +26,7 @@ const DATA = {
   contact: {
     phone: "+4747301900",
     phoneFormatted: "+47 473 01 900",
-    email: "bendik.barane@gmail.com",
+    email: "+4747301900",
     address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland, Norway",
     facebook:
       "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/",

@@ -84,7 +84,7 @@ const WEB_MCP_SCRIPT = `
     { slug: "kopiering-panel-kledning", name: "Kopiering av panel- og kledningstyper" }
   ];
   var BUSINESS = { name: "Hundseid Bygg og Laft", legalName: "HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid", orgNumber: "994379437", founded: "2009", founder: "Bjørn Magne Hundseid", address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland" };
-  var CONTACT = { phone: "+4747301900", email: "bendik.barane@gmail.com", facebook: "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/", instagram: "https://www.instagram.com/hundseidbyggoglaft/" };
+  var CONTACT = { phone: "+4747301900", email: "+4747301900", facebook: "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/", instagram: "https://www.instagram.com/hundseidbyggoglaft/" };
   var PROJECTS = [{ name: "Mesterverket, Røldal", year: 2019, source: "" }];
   try {
     navigator.modelContext.provideContext({

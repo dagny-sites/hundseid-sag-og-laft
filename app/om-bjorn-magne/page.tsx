@@ -76,7 +76,7 @@ export default function OmBjornMagnePage() {
           </div>
         </section>
 
-        {/* Editorial body */}
+        {/* Factual paragraph */}
         <section className="bg-[var(--color-canvas)] py-20 lg:py-28">
           <div className="mx-auto max-w-6xl px-6 lg:px-10">
             <div className="grid lg:grid-cols-12 gap-12 lg:gap-20">
@@ -84,58 +84,25 @@ export default function OmBjornMagnePage() {
                 <p className="text-xs uppercase tracking-[0.22em] text-[var(--color-muted)] mb-6">
                   Verkstedet
                 </p>
-                <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[52px] leading-[1.08]">
-                  Én lafter, ett verksted, ett prosjekt om gangen
-                </h2>
-
-                <div className="mt-12 space-y-8 text-[18px] leading-[1.7] text-[var(--color-ink)]/90 max-w-xl">
-                  <p>
-                    Hundseid Bygg og Laft har vært drevet som
-                    enkeltpersonforetak siden 2009. Verkstedet ligger i
-                    Fjellgardsvegen 1121 i Vikedal, en grunnflate med god
-                    takhøyde, et betonggolv som tåler dryppet fra en oljet
-                    laftøks, og plass til å reise et hytteskall i full høyde
-                    innendørs.
-                  </p>
-                  <p>
-                    Jeg lafter selv hver stokk. Det betyr at det ene huset jeg
-                    jobber med, har min fulle oppmerksomhet fra første hugg til
-                    siste novle. Tømrerarbeidet er en del av det samme arbeidet,
-                    jeg går rett fra grunnmur til kledning uten å sette bort
-                    fagene. Restaurering er kommet til etter hvert som folk har
-                    funnet veien hit med stokker som har stått siden 1800-tallet
-                    og som fortjener å stå et hundreår til.
-                  </p>
-                  <p>
-                    Metoden er den samme uansett om prosjektet er en hytte i
-                    Røldal, et anneks på vestlandet eller et stabbur i
-                    hjembygda. Bygget reises ferdig i hallen, hver stokk merkes,
-                    og hele konstruksjonen demonteres og settes opp på tomta på
-                    rundt en uke. Slik kontrolleres kvaliteten på gulvet, ikke
-                    på en byggeplass i regn.
-                  </p>
-                  <p>
-                    Filosofien er bygd for å vare. Det betyr lokale materialer
-                    der det går, personlig oppfølging gjennom hele prosjektet,
-                    og at jeg sier nei til oppdrag jeg ikke kan stå inne for.
-                    Det er en mindre virksomhet enn den kunne vært. Det er et
-                    bevisst valg.
-                  </p>
-                </div>
+                <p className="text-[18px] leading-[1.7] text-[var(--color-ink)]/90 max-w-xl">
+                  Hundseid Bygg og Laft er drevet som enkeltpersonforetak siden
+                  2009 av Bjørn Magne Hundseid. Verksted i Fjellgardsvegen 1121,
+                  5583 Vikedal. Org. nr. 994 379 437.
+                </p>
               </FadeUp>
 
               <FadeUp delay={0.12} className="lg:col-span-5">
                 <div className="relative aspect-[4/5] w-full overflow-hidden">
                   <Image
                     src="/about-master-chiseling-notch.jpeg"
-                    alt="Nærbilde av Bjørn Magne som hugger ut en novle, sett ovenfra, hørselvern på"
+                    alt="Bjørn Magne hugger ut en novle, hørselvern på"
                     fill
                     sizes="(min-width: 1024px) 40vw, 100vw"
                     style={{ objectFit: "cover" }}
                   />
                 </div>
                 <p className="caption mt-3 border-t border-[var(--color-line)] pt-3">
-                  Detalj: meisel og klubbe i novlehugging.
+                  Novlehugging.
                 </p>
               </FadeUp>
             </div>

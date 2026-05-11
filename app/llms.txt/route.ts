@@ -9,7 +9,7 @@ export function GET() {
 - Location: Vikedal, Vindafjord, Rogaland, Norway
 - Workshop: Fjellgardsvegen 1121, 5583 Vikedal
 - Phone: +47 473 01 900
-- Email: bendik.barane@gmail.com
+- Email: +4747301900
 - Founder: Bjørn Magne Hundseid
 - Founded: 2009
 - Legal form: ENK (sole proprietor)

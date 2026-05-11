@@ -13,7 +13,7 @@ export function GET() {
 - Founded: 2009
 - Workshop address: Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland, Norway
 - Phone: +47 473 01 900
-- Email: bendik.barane@gmail.com
+- Email: +4747301900
 - Facebook: https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/
 - Instagram: https://www.instagram.com/hundseidbyggoglaft/
 
@@ -88,7 +88,7 @@ A: Begge deler. Et anneks, et stabbur, et tilbygg eller en kopiert panelprofil e
 ## Contact
 
 - Telefon: +47 473 01 900
-- E-post: bendik.barane@gmail.com
+- E-post: +4747301900
 - Verksted: Fjellgardsvegen 1121, 5583 Vikedal
 - Facebook: https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/
 - Instagram: https://www.instagram.com/hundseidbyggoglaft/

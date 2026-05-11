@@ -78,7 +78,7 @@ export default function KontaktPage() {
                 Ring Bjørn Magne direkte, eller ta kontakt via Facebook eller
                 Instagram.
               </p>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
+              <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:items-center">
                 <a href="tel:+4747301900" className="btn-primary">
                   Ring 473 01 900
                 </a>
@@ -89,6 +89,14 @@ export default function KontaktPage() {
                   className="btn-secondary"
                 >
                   Send melding på Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/hundseidbyggoglaft/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-secondary"
+                >
+                  Følg på Instagram
                 </a>
               </div>
             </FadeUp>

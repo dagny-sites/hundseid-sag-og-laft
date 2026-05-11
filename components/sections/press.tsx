@@ -14,7 +14,7 @@ const PRESS = [
     date: "25. mai 2019",
     description:
       "Fagpressens omtale av Mesterverket, laftehytta i Røldal.",
-    href: "https://vibyggernytt.no/2019/05/25/se-den-kule-nye-laftehytten-mesterverket-i-roldal/",
+    href: null,
   },
 ];
 

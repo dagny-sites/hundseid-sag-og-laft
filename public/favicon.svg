@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#F5EBD9"/>
+  <g transform="rotate(-24 16 16)">
+    <rect x="15" y="14" width="2" height="14" fill="#7A4422"/>
+    <polygon points="9,3 18,3 17,9 11,9" fill="#7A4422"/>
+  </g>
+  <g transform="rotate(24 16 16)">
+    <rect x="15" y="14" width="2" height="14" fill="#7A4422"/>
+    <polygon points="14,3 23,3 21,9 15,9" fill="#7A4422"/>
+  </g>
+</svg>

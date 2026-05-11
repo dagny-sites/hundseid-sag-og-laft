@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+/*
+ * Hundseid Bygg og Laft — palette locked per design brief.
+ * Pale-pine paper canvas, aged-tar ink, weathered timber dividers,
+ * tjærebrent accent reserved for CTAs and the philosophy underline.
+ */
+@theme {
+  --color-canvas: #F5EBD9;          /* pale pine cream — paper */
+  --color-canvas-deep: #ECDFC6;     /* slightly deeper canvas for alternating sections */
+  --color-ink: #3B2A1F;             /* aged tar brown — primary */
+  --color-ink-deep: #2A1D14;
+  --color-muted: #8A7355;           /* weathered timber — dividers, captions */
+  --color-accent: #7A4422;          /* tjærebrent — CTA only */
+  --color-accent-deep: #5E3318;
+  --color-line: #D7C7A8;            /* hairline rule color on canvas */
+
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-heading), Georgia, "Times New Roman", serif;
+
+  --radius: 4px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    line-height: 1.08;
+    text-wrap: balance;
+    color: var(--color-ink);
+  }
+
+  a {
+    color: inherit;
+  }
+
+  [id] {
+    scroll-margin-top: 96px;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-canvas);
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--color-muted);
+    opacity: 0.45;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .editorial-rule {
+    border-top: 1px solid var(--color-muted);
+    opacity: 0.45;
+  }
+
+  .caption {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--color-muted);
+    line-height: 1.5;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 26px;
+    background-color: var(--color-accent);
+    color: var(--color-canvas);
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    border-radius: 4px;
+    transition: background-color 220ms ease-out;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-accent-deep);
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 4px;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+  }
+  .btn-secondary::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    bottom: 10px;
+    height: 1px;
+    background-color: var(--color-ink);
+    transform-origin: left;
+    transform: scaleX(0.18);
+    transition: transform 220ms ease-out;
+  }
+  .btn-secondary:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
+}

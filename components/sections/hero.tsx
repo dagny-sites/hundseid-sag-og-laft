@@ -19,7 +19,7 @@ export function Hero() {
           <p className="caption mb-6">
             Hundseid Bygg og Laft, Vikedal
           </p>
-          <h1 className="font-display text-[44px] sm:text-[64px] lg:text-[84px] leading-[1.02]">
+          <h1 className="font-display text-[36px] sm:text-[52px] lg:text-[72px] leading-[1.02] whitespace-nowrap">
             Bygd for å vare.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">

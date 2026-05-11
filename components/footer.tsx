@@ -75,11 +75,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/om-bjorn-magne"
-                  className="hover:text-[var(--color-accent)] transition-colors"
-                >
-                  Om Bjørn Magne
+                <Link href="/#galleri" className="hover:text-[var(--color-accent)] transition-colors">
+                  Galleri
                 </Link>
               </li>
               <li>

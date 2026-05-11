@@ -3,7 +3,6 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/sections/hero";
 import { Philosophy } from "@/components/sections/philosophy";
-import { Services } from "@/components/sections/services";
 import { Gallery } from "@/components/sections/gallery";
 import { CallToAction } from "@/components/sections/cta";
 import { HomeJsonLd } from "@/components/json-ld";
@@ -55,7 +54,6 @@ export default function Home() {
       <main>
         <Hero />
         <Philosophy />
-        <Services />
         <Gallery />
         <CallToAction />
       </main>

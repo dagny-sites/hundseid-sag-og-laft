@@ -27,7 +27,6 @@ export function GET() {
         name: "get-business-info",
         description:
           "Hent Brreg-bekreftede fakta: juridisk navn HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid, org.nr. 994379437, stiftet 2009.",
-        docUrl: `${ORIGIN}/om-bjorn-magne`,
         invocation: { via: "mcp-tool", target: "get_business_info" },
       },
       {

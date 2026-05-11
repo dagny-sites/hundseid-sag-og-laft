@@ -6,8 +6,7 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const NAV = [
-  { label: "Hjem", href: "/" },
-  { label: "Om Bjørn Magne", href: "/om-bjorn-magne" },
+  { label: "Galleri", href: "/#galleri" },
   { label: "Kontakt", href: "/kontakt" },
 ];
 

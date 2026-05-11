@@ -12,12 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${BASE}/om-bjorn-magne`,
-      lastModified: LAST_MODIFIED,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
       url: `${BASE}/kontakt`,
       lastModified: LAST_MODIFIED,
       changeFrequency: "monthly",

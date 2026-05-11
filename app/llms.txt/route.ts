@@ -37,7 +37,6 @@ Hvert hus bygges først i produksjonshallen i Vikedal. Hver stokk hugges, novles
 ## Pages
 
 - [Hjem](https://hundseid-sag-og-laft.dagny.dev/)
-- [Om Bjørn Magne](https://hundseid-sag-og-laft.dagny.dev/om-bjorn-magne)
 - [Kontakt](https://hundseid-sag-og-laft.dagny.dev/kontakt)
 - [Full content](https://hundseid-sag-og-laft.dagny.dev/llms-full.txt)
 `;

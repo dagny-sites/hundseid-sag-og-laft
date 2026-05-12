@@ -28,20 +28,19 @@ export function Philosophy() {
             <p className="text-xs uppercase tracking-[0.22em] text-[var(--color-muted)] mb-6">
               Filosofi
             </p>
-            <h2 className="font-display text-[36px] sm:text-[48px] lg:text-[56px] leading-[1.05]">
+            <h2 className="font-display text-[32px] sm:text-[40px] lg:text-[44px] leading-[1.05]">
               <span className="relative inline-block">
-                Bygd for å vare
+                Fra skog til ferdig hus.
                 <span
                   aria-hidden
                   className="absolute left-0 right-0 -bottom-1 h-[1px] bg-[var(--color-accent)]"
                 />
               </span>
-              .
             </h2>
             <p className="mt-8 text-[18px] leading-[1.65] text-[var(--color-ink)]/90">
-              Tradisjonell lafting, tømrerarbeid og restaurering. Kvalitet,
-              detaljer og varige konstruksjoner, med respekt for norske
-              byggetradisjoner og naturmaterialer.
+              Vi bygger med lokalt tømmer fra eget sagbruk, og vi reiser
+              bygget ferdig i laftehallen før det settes opp på tomta. Hvert
+              bygg skal stå i generasjoner.
             </p>
           </FadeUp>
         </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -17,19 +18,20 @@ export function Hero() {
       <div className="bg-[var(--color-canvas)]">
         <div className="mx-auto max-w-6xl px-6 lg:px-10 pt-14 pb-4">
           <p className="caption mb-6">
-            Hundseid Bygg og Laft, Vikedal
+            Hundseid Sag og Laft, Vikedal
           </p>
           <h1 className="font-display text-[36px] sm:text-[52px] lg:text-[72px] leading-[1.02] whitespace-nowrap">
             Bygd for å vare.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">
-            Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal i
-            Rogaland. Drevet av Bjørn Magne Hundseid siden 2009.
+            Et lite byggfirma i Vikedal, Vindafjord kommune. Vi jobber med
+            laft, stavlaft, reisverk, nybygg og restaurering av verneverdige
+            bygg.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
-            <a href="tel:+4747301900" className="btn-primary">
-              Ring 473 01 900
-            </a>
+            <Link href="/kontakt" className="btn-primary">
+              Ring oss
+            </Link>
             <a href="#galleri" className="btn-secondary">
               Se verkstedet
             </a>

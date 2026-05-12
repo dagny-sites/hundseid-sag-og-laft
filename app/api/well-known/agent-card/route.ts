@@ -15,11 +15,11 @@ export function GET() {
   return NextResponse.json(
     {
       schemaVersion: "2025-03-26",
-      name: "Hundseid Bygg og Laft",
+      name: "Hundseid Sag og Laft",
       description: "Lafting, restaurering og nybygg i Vikedal, Rogaland. Bygd for å vare.",
       url: origin,
       provider: {
-        organization: "Hundseid Bygg og Laft",
+        organization: "Hundseid Sag og Laft",
         legalName: "HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid",
         orgNumber: "994379437",
         founded: "2009",
@@ -55,7 +55,6 @@ export function GET() {
       },
       contact: {
         phone: "+4747301900",
-        email: "+4747301900",
         address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland, Norway",
         social: [
           "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/",

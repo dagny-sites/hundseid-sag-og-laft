@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { FadeUp } from "@/components/motion";
@@ -7,18 +8,18 @@ import { ContactJsonLd } from "@/components/json-ld";
 const SITE_URL = "https://hundseid-sag-og-laft.dagny.dev";
 
 export const metadata: Metadata = {
-  title: "Kontakt Hundseid Bygg og Laft, Vikedal",
+  title: "Kontakt Hundseid Sag og Laft, Vikedal",
   description:
     "Ring Bjørn Magne på 473 01 900. Verksted i Fjellgardsvegen 1121, 5583 Vikedal.",
   keywords: [
-    "kontakt Hundseid Bygg og Laft",
+    "kontakt Hundseid Sag og Laft",
     "lafter Vikedal telefon",
     "tømrer Rogaland",
     "befaring laftehytte",
   ],
   alternates: { canonical: `${SITE_URL}/kontakt` },
   openGraph: {
-    title: "Kontakt Hundseid Bygg og Laft",
+    title: "Kontakt Hundseid Sag og Laft",
     description:
       "Telefon, verksted og sosiale kanaler i Vikedal.",
     url: `${SITE_URL}/kontakt`,
@@ -29,13 +30,13 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/images/og.png`,
         width: 1200,
         height: 630,
-        alt: "Hundseid Bygg og Laft, kontakt",
+        alt: "Hundseid Sag og Laft, kontakt",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kontakt Hundseid Bygg og Laft",
+    title: "Kontakt Hundseid Sag og Laft",
     description:
       "Telefon, verksted og sosiale kanaler i Vikedal.",
     images: [`${SITE_URL}/images/og.png`],
@@ -63,71 +64,67 @@ export default function KontaktPage() {
     <>
       <ContactJsonLd />
       <Navbar />
-      <main className="pt-32">
-        <section className="bg-[var(--color-canvas)] pt-12 pb-20 lg:pt-20 lg:pb-32">
-          <div className="mx-auto max-w-6xl px-6 lg:px-10">
-            <FadeUp>
-              <p className="text-xs uppercase tracking-[0.22em] text-[var(--color-muted)] mb-6">
-                Kontakt
-              </p>
-              <h1 className="font-display text-[44px] sm:text-[64px] lg:text-[80px] leading-[1.04] max-w-3xl">
-                Be om en uforpliktende befaring
-              </h1>
-              <p className="mt-6 caption">Vi tar én samtale av gangen.</p>
-              <p className="mt-8 max-w-2xl text-[18px] leading-[1.65] text-[var(--color-ink)]/85">
-                Ring Bjørn Magne direkte, eller ta kontakt via Facebook eller
-                Instagram.
-              </p>
-              <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:items-center">
-                <a href="tel:+4747301900" className="btn-primary">
-                  Ring 473 01 900
-                </a>
-                <a
-                  href="https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-secondary"
-                >
-                  Send melding på Facebook
-                </a>
-                <a
-                  href="https://www.instagram.com/hundseidbyggoglaft/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-secondary"
-                >
-                  Følg på Instagram
-                </a>
-              </div>
+      <main className="pt-24">
+        <section className="bg-[var(--color-canvas)]">
+          <div className="grid lg:grid-cols-2 min-h-[calc(100vh-6rem)]">
+            <FadeUp className="relative h-[60vh] lg:h-auto lg:min-h-[640px] order-1 lg:order-none">
+              <Image
+                src="/detail-carved-window-crown.jpeg"
+                alt="Vindu med utskåret krans, fjellutsikt gjennom glasset"
+                fill
+                priority
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                style={{ objectFit: "cover" }}
+              />
             </FadeUp>
 
-            <FadeUp delay={0.1}>
-              <ul className="mt-20 max-w-2xl border-t border-[var(--color-muted)]/40">
-                {CONTACT.map((item) => (
-                  <li
-                    key={item.label}
-                    className="border-b border-[var(--color-muted)]/40 py-6 grid grid-cols-3 gap-6 items-baseline"
-                  >
-                    <span className="col-span-1 text-xs uppercase tracking-[0.18em] text-[var(--color-muted)]">
-                      {item.label}
-                    </span>
-                    <span className="col-span-2 text-[17px] text-[var(--color-ink)] break-words">
-                      {item.href ? (
-                        <a
-                          href={item.href}
-                          target={item.href.startsWith("http") ? "_blank" : undefined}
-                          rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                          className="hover:text-[var(--color-accent)] transition-colors"
-                        >
-                          {item.value}
-                        </a>
-                      ) : (
-                        item.value
-                      )}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+            <FadeUp delay={0.1} className="flex items-center order-2 lg:order-none">
+              <div className="w-full px-6 py-16 sm:px-10 sm:py-20 lg:px-16 lg:py-24 max-w-xl mx-auto">
+                <p className="text-xs uppercase tracking-[0.22em] text-[var(--color-muted)] mb-6">
+                  Kontakt
+                </p>
+                <h1 className="font-display text-[36px] sm:text-[44px] lg:text-[52px] leading-[1.05]">
+                  Ring Bjørn Magne
+                </h1>
+                <p className="mt-6 text-[17px] leading-[1.65] text-[var(--color-ink)]/85">
+                  Be om en uforpliktende befaring, eller ta kontakt via
+                  Facebook eller Instagram.
+                </p>
+
+                <a
+                  href="tel:+4747301900"
+                  className="mt-10 block font-display text-[28px] sm:text-[32px] leading-none text-[var(--color-accent)] hover:opacity-80 transition-opacity"
+                >
+                  473 01 900
+                </a>
+
+                <dl className="mt-12 space-y-5">
+                  {CONTACT.slice(1).map((item) => (
+                    <div
+                      key={item.label}
+                      className="grid grid-cols-[100px_1fr] gap-4 items-baseline"
+                    >
+                      <dt className="text-xs uppercase tracking-[0.18em] text-[var(--color-muted)]">
+                        {item.label}
+                      </dt>
+                      <dd className="text-[15px] text-[var(--color-ink)] break-words">
+                        {item.href ? (
+                          <a
+                            href={item.href}
+                            target={item.href.startsWith("http") ? "_blank" : undefined}
+                            rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                            className="hover:text-[var(--color-accent)] transition-colors"
+                          >
+                            {item.value}
+                          </a>
+                        ) : (
+                          item.value
+                        )}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
             </FadeUp>
           </div>
         </section>

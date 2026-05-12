@@ -1,97 +1,83 @@
 export const dynamic = "force-static";
 
 export function GET() {
-  const body = `# Hundseid Bygg og Laft, full content
+  const body = `# Hundseid Sag og Laft, full content
 
 ## Identity
 
-- Registered name: Hundseid Bygg og Laft (trade name)
+- Registered name: Hundseid Sag og Laft (trade name)
 - Legal name: HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid
 - Legal form: Enkeltpersonforetak (ENK, sole proprietor)
 - Org number: 994379437
-- Founder: Bjørn Magne Hundseid
+- Founder and daily leader: Bjørn Magne Hundseid
 - Founded: 2009
 - Workshop address: Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland, Norway
 - Phone: +47 473 01 900
-- Email: +4747301900
 - Facebook: https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/
 - Instagram: https://www.instagram.com/hundseidbyggoglaft/
 
-## Philosophy
+## Tagline
 
-Bygd for å vare. Hvert hus skal tåle tid, vær og bruk. Vi velger furu og gran fra lokale leverandører, og hver stokk hugges, novles og merkes på gulvet i hallen før den reises på tomta. Det er ikke en metode som er rask, men den er etterprøvbar. Et hus som blir bygd slik, står i ti generasjoner til.
+Bygd for å vare.
+
+## About us
+
+Et lite byggfirma i Vikedal i Vindafjord kommune. Vi har eget sagbruk der vi tar inn lokalt tømmer og leverer kleding, panel, listverk og spesialbestillinger. Vi jobber med laft, stavlaft, reisverk, nybygg og restaurering av verneverdige bygg, alt etter hva kunden ønsker. Arbeidet foregår i en laftehall med traverskran. De fleste bygg leveres i nærområdet, men vi tar oppdrag i hele Sør-Norge.
+
+## Team
+
+- Bjørn Magne Hundseid — daglig leder, grunnlegger, lafter
+- Katarina Barane Hundseid — kontor og sosiale medier
+- Nicolai Rasmussen — tømrer og tradisjonshåndverker (Skjold, Vindafjord)
+- Anders Johan Tysseland — sag- og høvlemester, skogingsmester (Selland, Suldal)
+- Ruslan Klimenko — sag- og høvlemester (Vikedal, Vindafjord)
+- Sigurd Fosen — lærling i tømring og tradisjonshåndverk (Vikedal)
 
 ## Services
 
-### Lafting
-Tradisjonell håndlafting av hytter og hus i furu og gran. Bygges i produksjonshall i Vikedal, demonteres og reises på tomta.
+### Laft
 
-### Tømrerarbeid
-Komplette tømrerleveranser fra grunnmur til ferdig hus, innvendig og utvendig.
+- Laft og stavlaft
+- Reisverk
+- Nybygg av hytter, hus, anneks og stabbur
+- Restaurering av verneverdige bygg
+- Tilbygg og rehabilitering
 
-### Restaurering
-Nye stokker hugges til samme profil som de gamle og settes inn mot rotnet tømmer, slik at huset står videre uten å skifte karakter.
+### Sag
 
-### Nybygg
-Hytter, boliger, anneks og stabbur laftet etter gamle metoder, prosjektert for TEK17.
+Eget sagbruk i Vikedal. Vi tar inn lokalt tømmer og leverer:
 
-### Tilbygg og rehabilitering
-Påbygg og oppgraderinger som møter den eksisterende konstruksjonen i samme treverk og profil, ikke i plate og puss.
+- Kleding
+- Panel
+- Listverk
+- Spesialbestillinger (inkludert kopier av eldre profiler for restaurering)
 
-### Spesialprodusert trevirke
-Eikegolv, villmarkspanel, kledning og dekorelementer høvles og freses i eget verksted.
+### For grunneiere
 
-### Kopiering av panel- og kledningstyper
-Vi tar mål av eksisterende panel og lager nye stokker i samme profil. Uvurderlig ved restaurering der originalprofilen ikke finnes på markedet.
+Vi tilbyr planlegging og uttak av tømmer, og tar på oss både små og store hogstfelt.
 
 ## Method
 
-Hvert hus bygges først i produksjonshallen i Vikedal. Hver stokk hugges, novles og merkes på gulvet. Hele bygget reises i full høyde i hallen, slik at konstruksjonen kan kontrolleres før den forlater verkstedet. Deretter demonteres bygget, fraktes til tomta og settes opp på rundt en uke. Merkingen sikrer at hver stokk havner tilbake der den hørte hjemme. Kilde: vibyggernytt.no, 2019-05-25.
+Vi ringbarker furutrærne et år før vi feller dem, slik at saftstrømmen stanser og treet tørker stående. Stokkene henter vi dels fra egen gård på Øretjerven, dels fra andre gårder i Sauda og Suldal. Lafteveggene reises i sinklaft, isolert kun med etasjemose mellom 20 cm tjukke stokker.
 
-## Projects
+## Region
 
-### Mesterverket, Røldal (2019)
-Laftehytte i lys furu med utskårne hjørnefriser og vindusoverstykker mot mørke beisede tømmervegger. Bygd ferdig i hallen i Vikedal, demontert, fraktet over fjellet og satt opp på tomta. Omtalt i vibyggernytt.no 25. mai 2019: 
-
-## Press
-
-- Haugesunds Avis, 2024-01-13. Headline: Feature on Hundseid Bygg og Laft (regionavisens omtale, med foto fra verkstedet i Vikedal). Outlet: https://www.h-avis.no/
-- vibyggernytt.no, 2019-05-25. Headline: Mesterverket, laftehytta i Røldal (fagpressens omtale av Røldal-prosjektet). Article: 
-
-## About Bjørn Magne
-
-Hundseid Bygg og Laft har vært drevet som enkeltpersonforetak siden 2009. Verkstedet ligger i Fjellgardsvegen 1121 i Vikedal. Bjørn Magne lafter selv hver stokk, gjør tømrerarbeidet i samme prosjekt, og har bygget opp en egen praksis innen restaurering. Metoden er den samme uansett om prosjektet er en hytte, et anneks eller et stabbur: bygget reises ferdig i hallen, hver stokk merkes, og hele konstruksjonen demonteres og settes opp på tomta på rundt en uke.
-
-## FAQ
-
-Q: Hvor lang leveringstid har dere?
-A: Det avhenger av sesong og prosjektets størrelse. Vi bygger ett prosjekt om gangen i hallen, så kalenderen fylles fort. Ta kontakt tidlig.
-
-Q: Bygger dere etter mine tegninger eller egne?
-A: Begge deler. Vi tegner ofte selv, men vi bygger like gjerne etter ferdige tegninger fra arkitekt eller byggherre.
-
-Q: Hva koster en laftet hytte?
-A: Avhenger av størrelse og kompleksitet. Be om befaring, så regner vi.
-
-Q: Holder dere til i hele Norge?
-A: Produksjonen står i Vikedal i Vindafjord. Vi leverer over hele landet. Bygget reises i hallen, demonteres, og settes opp på tomta på rundt en uke.
-
-Q: Kan dere lage panel og stokker som matcher et gammelt hus?
-A: Ja. Vi tar mål av eksisterende panel og kledning og lager nye stokker i samme profil.
-
-Q: Hva slags treverk bruker dere?
-A: Furu og gran til lafting, eik til golv, og lokal kledning der det er fornuftig.
-
-Q: Tar dere mindre oppdrag, eller bare hele hus?
-A: Begge deler. Et anneks, et stabbur, et tilbygg eller en kopiert panelprofil er fullverdige prosjekter på linje med en hytte.
+Verksted og hovedaktivitet i Vikedal, Vindafjord kommune, Rogaland. De fleste prosjekter leveres i nærområdet. Vi tar oppdrag i hele Sør-Norge.
 
 ## Contact
 
 - Telefon: +47 473 01 900
-- E-post: +4747301900
 - Verksted: Fjellgardsvegen 1121, 5583 Vikedal
 - Facebook: https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/
 - Instagram: https://www.instagram.com/hundseidbyggoglaft/
+
+## Press
+
+Haugesunds Avis, januar 2024 — "Skog, sag og gamle byggeskikkar — byggjer liva sine på gamalt handtverk." https://www.h-avis.no/skog-sag-og-gamle-byggeskikkar-byggjer-liva-sine-pa-gamalt-handtverk/s/5-62-1647213
+
+## Call to action
+
+Ring Bjørn Magne direkte, eller ta kontakt via Facebook eller Instagram.
 `;
 
   return new Response(body, {

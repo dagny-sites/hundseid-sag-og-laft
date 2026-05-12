@@ -14,7 +14,7 @@ export function GET(request: Request) {
       resource: origin,
       authorization_servers: [origin],
       bearer_methods_supported: ["header"],
-      resource_name: "Hundseid Bygg og Laft",
+      resource_name: "Hundseid Sag og Laft",
       resource_documentation: `${origin}/llms-full.txt`,
       scopes_supported: ["read"],
     },

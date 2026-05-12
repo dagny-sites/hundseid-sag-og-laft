@@ -2,7 +2,7 @@
  * Markdown rendering of site content for AI agents.
  *
  * Catch-all under /md/[[...path]]. Returns markdown for each top-level page:
- *   /md or /md/                  → home (Hundseid Bygg og Laft)
+ *   /md or /md/                  → home (Hundseid Sag og Laft)
  *   /md/kontakt                  → contact
  */
 
@@ -10,21 +10,20 @@ export const dynamic = "force-static";
 
 const ORIGIN = "https://hundseid-sag-og-laft.dagny.dev";
 
-const HOME_MD = `# Hundseid Bygg og Laft
+const HOME_MD = `# Hundseid Sag og Laft
 
 > Lafting, tømrerarbeid og restaurering i Vikedal, Rogaland. Bygd for å vare.
 
-Tradisjonell håndlafting fra Vikedal. Drevet av Bjørn Magne Hundseid som enkeltpersonforetak siden 2009.
+Et lite byggfirma i Vikedal, Vindafjord. Vi jobber med laft, stavlaft, reisverk, nybygg og restaurering av verneverdige bygg. Eget sagbruk. Daglig leder Bjørn Magne Hundseid grunnla bedriften i 2009.
 
 ## Tjenester
 
-- Lafting
-- Tømrerarbeid
-- Restaurering av eldre bygg
-- Nybygg av hytter og boliger
-- Tilbygg og rehabilitering
-- Sagbruk og spesialprodusert trevirke
-- Kopiering av panel- og kledningstyper
+- Laft og stavlaft
+- Reisverk
+- Nybygg
+- Restaurering av verneverdige bygg
+- Sagbruk: kleding, panel, listverk, spesialbestillinger
+- Planlegging og uttak av tømmer for grunneiere
 
 ## Fakta
 

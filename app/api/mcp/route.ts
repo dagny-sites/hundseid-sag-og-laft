@@ -2,7 +2,7 @@
  * Public MCP server — JSON-RPC 2.0 over HTTP.
  *
  * Read-only. Data inlined at build time from Brreg-confirmed facts and
- * the website-plan / copy-draft artifacts for Hundseid Bygg og Laft.
+ * the website-plan / copy-draft artifacts for Hundseid Sag og Laft.
  */
 
 type JsonRpcRequest = {
@@ -14,7 +14,7 @@ type JsonRpcRequest = {
 
 const DATA = {
   business: {
-    name: "Hundseid Bygg og Laft",
+    name: "Hundseid Sag og Laft",
     legalName: "HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid",
     orgNumber: "994379437",
     founded: "2009",
@@ -26,7 +26,6 @@ const DATA = {
   contact: {
     phone: "+4747301900",
     phoneFormatted: "+47 473 01 900",
-    email: "+4747301900",
     address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland, Norway",
     facebook:
       "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/",
@@ -93,7 +92,7 @@ const DATA = {
       outlet: "Haugesunds Avis",
       date: "2024-01-13",
       url: "https://www.h-avis.no/",
-      note: "Regionavisens omtale av Hundseid Bygg og Laft, med foto fra verkstedet i Vikedal.",
+      note: "Regionavisens omtale av Hundseid Sag og Laft, med foto fra verkstedet i Vikedal.",
     },
     {
       outlet: "vibyggernytt.no",
@@ -108,7 +107,7 @@ const TOOLS = [
   {
     name: "lookup_services",
     description:
-      "Returnerer de syv tjenestene Hundseid Bygg og Laft leverer: lafting, tømrerarbeid, restaurering, nybygg, tilbygg og rehabilitering, spesialprodusert trevirke, og kopiering av panel- og kledningstyper.",
+      "Returnerer de syv tjenestene Hundseid Sag og Laft leverer: lafting, tømrerarbeid, restaurering, nybygg, tilbygg og rehabilitering, spesialprodusert trevirke, og kopiering av panel- og kledningstyper.",
     inputSchema: { type: "object", properties: {} },
   },
   {
@@ -180,7 +179,7 @@ export async function POST(req: Request) {
           result: {
             protocolVersion: "2025-03-26",
             capabilities: { tools: { listChanged: false } },
-            serverInfo: { name: "Hundseid Bygg og Laft", version: "1.0.0" },
+            serverInfo: { name: "Hundseid Sag og Laft", version: "1.0.0" },
           },
         },
         { headers: { "Access-Control-Allow-Origin": "*" } },
@@ -217,7 +216,7 @@ export async function POST(req: Request) {
 export function GET() {
   return Response.json(
     {
-      name: "Hundseid Bygg og Laft MCP",
+      name: "Hundseid Sag og Laft MCP",
       transport: "streamable-http",
       endpoint: "https://hundseid-sag-og-laft.dagny.dev/api/mcp",
       method: "POST",

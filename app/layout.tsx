@@ -24,8 +24,8 @@ const OG_IMAGE = `${SITE_URL}/images/og.png`;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Hundseid Bygg og Laft, lafting i Vikedal",
-    template: "%s | Hundseid Bygg og Laft",
+    default: "Hundseid Sag og Laft, lafting i Vikedal",
+    template: "%s | Hundseid Sag og Laft",
   },
   description:
     "Tradisjonell lafting, tømrerarbeid og restaurering fra Vikedal. Bygges i hallen, reises på tomta. Solo mesterlafter siden 2009.",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "nb_NO",
     url: SITE_URL,
-    siteName: "Hundseid Bygg og Laft",
-    title: "Hundseid Bygg og Laft, bygd for å vare",
+    siteName: "Hundseid Sag og Laft",
+    title: "Hundseid Sag og Laft, bygd for å vare",
     description:
       "Håndlaftede hytter, hus og restaurering fra produksjonshallen i Vikedal. Bygges inne, reises ute på rundt en uke.",
     images: [
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "Hundseid Bygg og Laft, Vikedal",
+        alt: "Hundseid Sag og Laft, Vikedal",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hundseid Bygg og Laft, bygd for å vare",
+    title: "Hundseid Sag og Laft, bygd for å vare",
     description:
       "Håndlaftede hytter, hus og restaurering fra produksjonshallen i Vikedal.",
     images: [OG_IMAGE],
@@ -83,13 +83,13 @@ const WEB_MCP_SCRIPT = `
     { slug: "spesialprodusert-trevirke", name: "Spesialprodusert trevirke" },
     { slug: "kopiering-panel-kledning", name: "Kopiering av panel- og kledningstyper" }
   ];
-  var BUSINESS = { name: "Hundseid Bygg og Laft", legalName: "HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid", orgNumber: "994379437", founded: "2009", founder: "Bjørn Magne Hundseid", address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland" };
-  var CONTACT = { phone: "+4747301900", email: "+4747301900", facebook: "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/", instagram: "https://www.instagram.com/hundseidbyggoglaft/" };
-  var PROJECTS = [{ name: "Mesterverket, Røldal", year: 2019, source: "" }];
+  var BUSINESS = { name: "Hundseid Sag og Laft", legalName: "HUNDSEID BYGG OG LAFT Bjørn Magne Hundseid", orgNumber: "994379437", founded: "2009", founder: "Bjørn Magne Hundseid", address: "Fjellgardsvegen 1121, 5583 Vikedal, Vindafjord, Rogaland" };
+  var CONTACT = { phone: "+4747301900", facebook: "https://www.facebook.com/p/Hundseid-Bygg-og-Laft-100027208312289/", instagram: "https://www.instagram.com/hundseidbyggoglaft/" };
+  var PROJECTS = [];
   try {
     navigator.modelContext.provideContext({
       tools: [
-        { name: "lookup_services", description: "Returnerer de syv tjenestene Hundseid Bygg og Laft leverer.", inputSchema: { type: "object", properties: {} }, execute: function(){ return { services: SERVICES }; } },
+        { name: "lookup_services", description: "Returnerer de syv tjenestene Hundseid Sag og Laft leverer.", inputSchema: { type: "object", properties: {} }, execute: function(){ return { services: SERVICES }; } },
         { name: "get_business_info", description: "Returnerer Brreg-bekreftede fakta om virksomheten.", inputSchema: { type: "object", properties: {} }, execute: function(){ return { business: BUSINESS }; } },
         { name: "get_contact_info", description: "Returnerer telefon, e-post, adresse og sosiale lenker.", inputSchema: { type: "object", properties: {} }, execute: function(){ return { contact: CONTACT }; } },
         { name: "list_projects", description: "Returnerer omtalte prosjekter med kilder.", inputSchema: { type: "object", properties: {} }, execute: function(){ return { projects: PROJECTS }; } }

@@ -12,7 +12,7 @@ export function GET() {
   const body = {
     schemaVersion: "0.1",
     provider: {
-      name: "Hundseid Bygg og Laft",
+      name: "Hundseid Sag og Laft",
       url: ORIGIN,
     },
     skills: [

@@ -12,7 +12,7 @@ const ORIGIN = "https://hundseid-sag-og-laft.dagny.dev";
 const TOOLS = [
   {
     name: "lookup_services",
-    description: "Returnerer de syv tjenestene Hundseid Bygg og Laft leverer: lafting, tømrerarbeid, restaurering, nybygg, tilbygg og rehabilitering, spesialprodusert trevirke, og kopiering av panel- og kledningstyper.",
+    description: "Returnerer de syv tjenestene Hundseid Sag og Laft leverer: lafting, tømrerarbeid, restaurering, nybygg, tilbygg og rehabilitering, spesialprodusert trevirke, og kopiering av panel- og kledningstyper.",
     inputSchema: { type: "object", properties: {} },
   },
   {
@@ -35,7 +35,7 @@ const TOOLS = [
 export function GET() {
   const card = {
     schemaVersion: "2025-03-26",
-    name: "Hundseid Bygg og Laft",
+    name: "Hundseid Sag og Laft",
     version: "1.0.0",
     language: "no",
     description: "Lafting, restaurering og nybygg i Vikedal, Rogaland. Bygd for å vare. Offentlig read-only MCP-server.",

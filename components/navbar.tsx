@@ -6,7 +6,10 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const NAV = [
-  { label: "Galleri", href: "/#galleri" },
+  { label: "Laft", href: "/laft" },
+  { label: "Sag", href: "/sag" },
+  { label: "Prosjekter", href: "/prosjekter" },
+  { label: "Om", href: "/om" },
   { label: "Kontakt", href: "/kontakt" },
 ];
 
@@ -32,12 +35,12 @@ export function Navbar() {
       <div className="mx-auto max-w-6xl px-6 lg:px-10 h-20 flex items-center justify-between">
         <Link
           href="/"
-          aria-label="Hundseid Bygg og Laft, til forsiden"
+          aria-label="Hundseid Sag og Laft, til forsiden"
           className="block"
         >
           <Image
             src="/hundseid-bygg-laft-logo.png"
-            alt="Hundseid Bygg og Laft"
+            alt="Hundseid Sag og Laft"
             width={160}
             height={60}
             priority
@@ -55,13 +58,13 @@ export function Navbar() {
               {item.label}
             </Link>
           ))}
-          <a
-            href="tel:+4747301900"
+          <Link
+            href="/kontakt"
             className="btn-primary text-sm"
             style={{ padding: "10px 18px" }}
           >
-            Ring 473 01 900
-          </a>
+            Kontakt oss
+          </Link>
         </nav>
 
         <button
@@ -86,9 +89,13 @@ export function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <a href="tel:+4747301900" className="btn-primary self-start mt-2">
-              Ring 473 01 900
-            </a>
+            <Link
+              href="/kontakt"
+              className="btn-primary self-start mt-2"
+              onClick={() => setOpen(false)}
+            >
+              Kontakt oss
+            </Link>
           </nav>
         </div>
       )}

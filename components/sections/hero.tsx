@@ -24,8 +24,13 @@ export function Hero() {
             Bygd for å vare.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">
-            Et lite byggfirma i Vikedal, Vindafjord. Vi driver eget sagbruk og
-            egen laftehall. Det vi lafter, sager vi selv av lokalt tømmer.
+            Hundseid Sag og Laft er et sagbruk og laftefirma fra Vikedal i
+            Vindafjord som satser på tradisjonshåndverk og kvalitet i alle
+            ledd.
+          </p>
+          <p className="mt-4 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">
+            Vi bygger med omtanke, fra skog til ferdig produkt, med kundens
+            behov i sentrum.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
             <Link href="/kontakt" className="btn-primary">

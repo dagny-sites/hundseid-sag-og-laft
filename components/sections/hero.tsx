@@ -28,8 +28,9 @@ export function Hero() {
             Vindafjord som satser på tradisjonshåndverk og kvalitet i alle
             ledd.
           </p>
+          {/* intentional: verbatim from Bendik (customer-supplied copy) */}
           <p className="mt-4 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">
-            Vi bygger med omtanke, fra skog til ferdig produkt, med kundens
+            Vi bygger med omtanke - fra skog til ferdig produkt, med kundens
             behov i sentrum.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">

@@ -4,6 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { FadeUp } from "@/components/motion";
 import { ContactJsonLd } from "@/components/json-ld";
+import { InquiryForm } from "@/components/sections/inquiry-form";
 
 const SITE_URL = "https://hundseid-sag-og-laft.dagny.dev";
 
@@ -65,27 +66,24 @@ export default function KontaktPage() {
       <ContactJsonLd />
       <Navbar />
       <main className="pt-24">
-        <section className="bg-[var(--color-canvas)]">
-          <div className="grid lg:grid-cols-2 min-h-[calc(100vh-6rem)]">
-            <FadeUp className="relative h-[60vh] lg:h-auto lg:min-h-[640px] order-1 lg:order-none">
+        <InquiryForm />
+        <section className="bg-[var(--color-canvas)] border-t border-[var(--color-muted)]/30">
+          <div className="grid lg:grid-cols-2">
+            <FadeUp className="relative h-[60vh] lg:h-auto lg:min-h-[560px] order-1 lg:order-none">
               <Image
-                src="/detail-carved-window-crown.jpeg"
-                alt="Vindu med utskåret krans, fjellutsikt gjennom glasset"
+                src="/bjørn-magne.jpeg"
+                alt="Bjørn Magne Hundseid i skogen med motorsag"
                 fill
-                priority
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 style={{ objectFit: "cover" }}
               />
             </FadeUp>
 
             <FadeUp delay={0.1} className="flex items-center order-2 lg:order-none">
-              <div className="w-full px-6 py-16 sm:px-10 sm:py-20 lg:px-16 lg:py-24 max-w-xl mx-auto">
-                <p className="text-xs uppercase tracking-[0.22em] text-[var(--color-muted)] mb-6">
-                  Kontakt
-                </p>
-                <h1 className="font-display text-[36px] sm:text-[44px] lg:text-[52px] leading-[1.05]">
-                  Ring Bjørn Magne
-                </h1>
+              <div className="w-full px-6 py-16 sm:px-10 sm:py-20 lg:px-16 lg:py-24 max-w-xl mx-auto lg:mx-0 lg:mr-auto lg:ml-12">
+                <h2 className="font-display text-[32px] sm:text-[40px] lg:text-[48px] leading-[1.05]">
+                  Eller ring Bjørn Magne
+                </h2>
                 <p className="mt-6 text-[17px] leading-[1.65] text-[var(--color-ink)]/85">
                   Be om en uforpliktende befaring, eller ta kontakt via
                   Facebook eller Instagram.

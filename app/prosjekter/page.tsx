@@ -52,6 +52,20 @@ const FEATURED: FeaturedProject[] = [
     ],
   },
   {
+    title: "Ammekufjos i Etne",
+    location: "Etne",
+    year: "2024",
+    type: "Ammekufjos i slepplaft",
+    body:
+      "Ammekufjos i slepplaft, ferdigstilt i Etne høsten 2024.",
+    images: [
+      { src: "/kufjos.jpg", alt: "Ammekufjos i Etne, langside med tørrmurt steinmur" },
+      { src: "/kufjos2.jpg", alt: "Ammekufjos i Etne, åpen langside med båser" },
+      { src: "/kufjos3.jpg", alt: "Ammekufjos i Etne, gavlende i ettermiddagslys" },
+      { src: "/kufjos4.jpg", alt: "Ammekufjos i Etne, kortside under siste innspurt" },
+    ],
+  },
+  {
     title: "Løa på Bakka",
     location: "Vikedal",
     year: "Ferdigstilt våren 2022",

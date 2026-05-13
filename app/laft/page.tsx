@@ -16,16 +16,16 @@ export const metadata: Metadata = {
 
 const GALLERY = [
   {
-    src: "/about-master-chiseling-notch.jpeg",
-    alt: "Tømrer hugger en novle med meisel og klubbe i verkstedet",
+    src: "/håndlaft-i-røldal.jpg",
+    alt: "Ferdig håndlafta hytte i Røldal, snødekt landskap og fjell i bakgrunnen",
   },
   {
-    src: "/detail-carved-corner-rosette.jpeg",
-    alt: "Utskåret hjørnefriis med rosetter i lys furu",
+    src: "/kufjos.jpg",
+    alt: "Ammekufjos i slepplaft i Etne, langside med tørrmurt steinmur og fjell i bakgrunnen",
   },
   {
-    src: "/detail-carved-window-crown.jpeg",
-    alt: "Vindu med utskåret krans, fjellutsikt gjennom glasset",
+    src: "/kufjos3.jpg",
+    alt: "Ammekufjos i Etne, gavlende i ettermiddagslys",
   },
 ];
 
@@ -87,6 +87,16 @@ export default function LaftPage() {
                     Mest i nærområdet. Vi tar oppdrag i Sør-Norge.
                   </p>
                 </div>
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.18}>
+              <div className="mt-20 max-w-3xl border-t border-[var(--color-muted)]/40 pt-8">
+                <p className="caption mb-4">Priser</p>
+                <p className="text-[17px] leading-[1.65]">
+                  Vi tilbyr konkurransedyktige priser og tilpasninger til ditt
+                  behov. Ta kontakt for full prisoversikt og mer informasjon.
+                </p>
               </div>
             </FadeUp>
 

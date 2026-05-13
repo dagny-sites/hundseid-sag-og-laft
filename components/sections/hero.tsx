@@ -24,9 +24,8 @@ export function Hero() {
             Bygd for å vare.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] sm:text-[20px] leading-[1.55] text-[var(--color-ink)]/85">
-            Et lite byggfirma i Vikedal, Vindafjord kommune. Vi jobber med
-            laft, stavlaft, reisverk, nybygg og restaurering av verneverdige
-            bygg.
+            Et lite byggfirma i Vikedal, Vindafjord. Vi driver eget sagbruk og
+            egen laftehall. Det vi lafter, sager vi selv av lokalt tømmer.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
             <Link href="/kontakt" className="btn-primary">

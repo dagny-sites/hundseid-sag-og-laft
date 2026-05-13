@@ -52,8 +52,8 @@ export default function SagPage() {
             <FadeUp delay={0.1}>
               <div className="mt-16 relative w-full aspect-[16/9] overflow-hidden">
                 <Image
-                  src="/interior-oak-flooring.webp"
-                  alt="Brede eikegolvplanker i sterkt sollys, store vinduer åpner mot fjellene"
+                  src="/Sag.jpeg"
+                  alt="Zenz båndsag på sagbruket med ferskhugd takbjelke og stabel rundtømmer på sidetraversen"
                   fill
                   sizes="(min-width: 1024px) 1024px, 100vw"
                   style={{ objectFit: "cover" }}
@@ -89,6 +89,16 @@ export default function SagPage() {
                     trevirke som ikke finnes på markedet.
                   </p>
                 </div>
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.22}>
+              <div className="mt-20 max-w-3xl border-t border-[var(--color-muted)]/40 pt-8">
+                <p className="caption mb-4">Priser</p>
+                <p className="text-[17px] leading-[1.65]">
+                  Vi tilbyr konkurransedyktige priser og tilpasninger til ditt
+                  behov. Ta kontakt for full prisoversikt og mer informasjon.
+                </p>
               </div>
             </FadeUp>
 

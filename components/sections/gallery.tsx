@@ -25,9 +25,9 @@ const PHOTOS = [
     aspect: "aspect-[4/5]",
   },
   {
-    src: "/detail-carved-window-crown.jpeg",
-    alt: "Vindu med utskåret krans, fjellutsikt gjennom glasset",
-    caption: "Nybygg",
+    src: "/chainsaw2.jpeg",
+    alt: "Skogsmeister i skogsdriftutstyr som kapper en felt furu med motorsag i snøen",
+    caption: "Felling",
     aspect: "aspect-[4/5]",
   },
   {
@@ -50,9 +50,9 @@ const PHOTOS = [
     aspect: "aspect-[4/5]",
   },
   {
-    src: "/interior-oak-flooring.webp",
-    alt: "Brede eikegolvplanker fra eget sagbruk i sterkt sollys, store vinduer åpner mot fjellene",
-    caption: "Spesialprodusert trevirke",
+    src: "/chainsaw1.jpeg",
+    alt: "STIHL motorsag og hjelm på en felt furu, bål og sollys gjennom snødekt skog",
+    caption: "Skogsdrift",
     aspect: "aspect-[4/5]",
   },
 ];
